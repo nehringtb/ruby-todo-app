@@ -4,5 +4,5 @@
 
 <p> Description: <%= @todo.description %> </p>
 
-<%= link_to "Edit This Todo", todos_path %> |
+<%= link_to "Edit This Todo", edit_todo_path(@todo)  %> |
 <%= link_to "List All Todos", todos_path %>
